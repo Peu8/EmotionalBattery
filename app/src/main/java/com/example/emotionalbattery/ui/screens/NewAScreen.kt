@@ -8,13 +8,6 @@ import androidx.navigation.NavController
 import com.example.emotionalbattery.navigation.Screen
 
 @Composable
-fun LoginScreen(navController: NavController) {
-    Column {
-        Text("Pantalla de Login")
-        Button(onClick = {
-            navController.navigate(Screen.Home.route)
-        }) {
-            Text("Iniciar sesión")
-        }
-    }
+fun NewAScreen(navController: NavController) {
+    Text("Pantalla Nueva Actividad")
 }
